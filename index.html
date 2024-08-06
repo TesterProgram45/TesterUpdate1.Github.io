@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>ESP Input Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // var q = document.getElementById("uploadButton"),$ = document.getElementById("fileInput");
+    // q.addEventListener("click", function (l) {
+    //   l.preventDefault(), $.click()
+    // });
+  </script>
+</head>
+
+<body>
+
+  <a>HELLO WORD </a>
+  <form>
+    <button id="uploadButton"
+      class="dark:text-white bg-gray-50 border border-[#b0b3b8] border-opacity-40 hover:bg-gray-200 text-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-full px-5 py-3 mr-2 flex flex-row gap-3 items-center dark:bg-[#242526] dark:hover:bg-[#3a3b3c] dark:focus:ring-[#3a3b3c] dark:border-[#3a3b3c]">
+
+      <span>
+        Select File
+      </span>
+    </button>
+    <input type="file" id="fileInput" class="hidden" accept=".bin,.bin.gz" onchange="onFileInput(files)">
+  </form>
+</body>
+
+</html>
